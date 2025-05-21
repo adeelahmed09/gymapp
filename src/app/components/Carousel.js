@@ -6,23 +6,23 @@ import ReviewCards from "./ReviewCards"
 const reviewData = [
     {
         name:"Emily R.",
-        review: "Joining this gym changed my life! The trainers are super motivating and the atmosphere is amazing. I feel stronger and more confident every week",
+        review: "Joining this gym changed &#39 my life! The trainers are super motivating and the atmosphere is amazing. I feel stronger and more confident every week",
     },
     {
         name:"Jason M.",
-        review:"Clean facilities, top-notch equipment, and staff who genuinely care. I've hit goals here I never thought possible. Highly recommend to anyone serious about fitness!",
+        review:"Clean facilities, top-notch equipment, and staff who genuinely care. I&#39ve hit goals here I never thought possible. Highly recommend to anyone serious about fitness!",
     },
     {
         name:"Priya S.",
-        review:"As a beginner, I was nervous, but the team made me feel welcome from day one. The classes are fun and challenging, and I've made great friends along the way!",
+        review:"As a beginner, I was nervous, but the team made me feel welcome from day one. The classes are fun and challenging, and I&#39ve made great friends along the way!",
     },
     {
         name:" Ahmed K.",
-        review:"Open 24/7, awesome vibe, and no waiting for equipment. This place is perfect for early risers and night owls alike. It's my second home now.",
+        review:"Open 24/7, awesome vibe, and no waiting for equipment. This place is perfect for early risers and night owls alike. It&#39s my second home now.",
     },
     {
         name:"Laura D.",
-        review:"Love the variety of workouts and the supportive community. The personal trainers push you just enough to grow without burning out. Best decision I've made this year!",
+        review:"Love the variety of workouts and the supportive community. The personal trainers push you just enough to grow without burning out. Best decision I&#39ve made this year!",
     },
 
 ]
@@ -63,7 +63,7 @@ function Carousel() {
         <>
         <Slider {...settings}>
         {reviewData.map((d,index)=>(
-            <ReviewCards name={d.name} review={d.review} index={index}/>
+            <ReviewCards key={index} name={d.name} review={d.review} index={index}/>
         ))}
         </Slider>
         </>
