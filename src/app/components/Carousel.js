@@ -6,7 +6,7 @@ import ReviewCards from "./ReviewCards"
 const reviewData = [
     {
         name:"Emily R.",
-        review: "Joining this gym changed &#39 my life! The trainers are super motivating and the atmosphere is amazing. I feel stronger and more confident every week",
+        review: "Joining  this gym changed &#39 my life! The trainers are super motivating and the atmosphere is amazing. I feel stronger and more confident every week",
     },
     {
         name:"Jason M.",

@@ -9,7 +9,7 @@ function AboutUs() {
         <div className="w-full flex  gap-5 py- flex-col items-center bg-[#0D0D0D]">
             <h1 className="text-[#85A6A2] w-full text-6xl font-bold tracking-tighter text-center pt-[12vh]">About Us</h1>
             <p className="sm:w-[50vw] w-[90%] text-center mt-5 text-lg text-[#F2F2F2]">
-                {"At Forge Gym, we believe fitness is more than just a workout — it&#39s a lifestyle.Founded with a passion for helping people transform their bodies and minds, our gym is a place where everyone, from beginners to pros, is welcomed and supported.With state-of-the-art equipment, certified trainers, and a motivating environment, we&#39re here to help you crush your goals — one rep at a time."}
+                {"At Forge Gym, we believe fitness is more than just a workout — it&#39s a lifestyle.Founded with a passion for helping people transform their bodies and minds, our gym is a place where everyone, from beginners to  pros, is welcomed and supported.With state-of-the-art equipment, certified trainers, and a motivating environment, we&#39re here to help you crush your goals — one rep at a time."}
             </p>
             <h1 className="mt-2 text-2xl text-[#85A6A2] font-semibold">
                 Key Features
