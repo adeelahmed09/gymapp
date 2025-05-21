@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
+import AboutUs from "./components/AboutUs";
 
 export default function Home() {
   return (
@@ -13,8 +14,8 @@ export default function Home() {
       <section id="hero" className="w-full flex gap-4 flex-col justify-center relative items-center h-screen ">
         <Hero />
       </section>
-      <section id="about-us" className="w-full flex gap-3.5 flex-col justify-center relative items-center h-screen ">
-
+      <section id="about-us" className="w-full flex gap-3.5 flex-col justify-center relative items-center ">
+        <AboutUs />
       </section>
     </main>
   );
