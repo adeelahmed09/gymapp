@@ -31,6 +31,37 @@ function AboutUs() {
             <div className="sm:w-[90vw] w-[80vw]  ">
                 <Carousel/>
             </div>
+            <h1  className="text-4xl mt-10  text-[#85A6A2] font-bold">Pricing</h1>
+            <div className="w-[90vw] gap-4  grid sm:grid-cols-3  grid-cols-1 ">
+                <div className="flex h-[40vh] pt-5 rounded-3xl items-center flex-col gap-6 border-2 px-10 border-[#85A6A2]">
+                    <h1 className="text-2xl text-[#85A6A2] font-bold">Basic Plan (PKR. 2500)</h1>
+                    <ul className="text-[#f0f0f0] text-lg marker:text-[#85A6A2] list-disc ">
+                        <li><p>Access to gym equipment</p></li>
+                        <li><p>Locker room access</p></li>
+                        <li><p>One fitness assessment</p></li>
+                        <li><p>Open gym hours only</p></li>
+                    </ul>
+                </div>
+                <div className="flex  h-[40vh] pt-5 rounded-3xl items-center flex-col gap-4 border-2 px-10 border-[#85A6A2]">
+                    <h1 className="text-2xl text-[#85A6A2] font-bold"> Standard Plan (PKR. 5000)</h1>
+                    <ul className="text-[#f0f0f0] text-lg marker:text-[#85A6A2] list-disc">
+                        <li><p>Everything in Basic Plant</p></li>
+                        <li><p>Unlimited group classes (Zumba, HIIT, Yoga)</p></li>
+                        <li><p>2 personal training sessions per month</p></li>
+                        <li><p>Mobile app workout tracking</p></li>
+                    </ul>
+                </div>
+                <div className="flex  h-[40vh] pt-5 rounded-3xl items-center flex-col gap-4 border-2 px-10 border-[#85A6A2]">
+                    <h1 className="text-2xl text-[#85A6A2] font-bold">Premium Plan (PKR. 8000)</h1>
+                    <ul className="text-[#f0f0f0] text-lg marker:text-[#85A6A2] list-disc ">
+                        <li><p>Everything in Standard Plan</p></li>
+                        <li><p>Unlimited personal training</p></li>
+                        <li><p>Nutrition consultation</p></li>
+                        <li><p>Priority support and booking</p></li>
+                        <li><p>24/7 access</p></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     )
 }
